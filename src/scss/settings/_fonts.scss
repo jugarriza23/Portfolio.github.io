@@ -1,0 +1,73 @@
+$fontsPath: '../assets/fonts';
+@font-face {
+    font-family: "poppins-medium";
+    font-weight: 500;
+    font-style: normal;
+    src: url("#{ $fontsPath }/Poppins-Medium.ttf") format("ttf"),
+    url("#{ $fontsPath }/Poppins-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "poppins-medium-italic";
+    font-weight: 500;
+    font-style: italic;
+    src: url("#{ $fontsPath }/Poppins-MediumItalic.ttf") format("ttf"),
+    url("#{ $fontsPath }/Poppins-MediumItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: "poppins-bold";
+    font-weight: 700;
+    font-style: normal;
+    src: url("#{ $fontsPath }/Poppins-Bold.ttf") format("ttf"),
+    url("#{ $fontsPath }/Poppins-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "poppins-bold-italic";
+    font-weight: 700;
+    font-style: normal;
+    src: url("#{ $fontsPath }/Poppins-BoldItalic.ttf") format("ttf"),
+    url("#{ $fontsPath }/Poppins-BoldItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: "webSymbolsRegular";
+    src: url('#{ $fontsPath }/websymbols-regular-webfont.ttf') format('ttf'),
+    url('#{ $fontsPath }/websymbols-regular-webfont.woff') format('woff'),
+    url('#{ $fontsPath }/websymbols-regular-webfont.eot') format('eot'),
+    url('#{ $fontsPath }/websymbols-regular-webfont.svg#webSymbolsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src : url('#{ $fontsPath }/icomoon.eot?ukmnr0');
+    src : url('#{ $fontsPath }/icomoon.eot?ukmnr0#iefix') format('embedded-opentype'),
+    url('#{ $fontsPath }/icomoon.ttf?ukmnr0') format('truetype'),
+    url('#{ $fontsPath }/icomoon.woff?ukmnr0') format('woff'),
+    url('#{ $fontsPath }/icomoon.svg?ukmnr0#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+    content: "\e900";
+}

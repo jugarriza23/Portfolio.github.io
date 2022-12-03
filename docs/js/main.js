@@ -1,0 +1,1 @@
+import"./imports";import"./modules/typed";import burguerMenu from"./modules/burguer-menu";burguerMenu(),Typed();

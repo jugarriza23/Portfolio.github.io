@@ -1,0 +1,14 @@
+@import 'settings';
+@import 'blocks';
+@import 'layout';
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: url("#{ $imgPath }/pattern.png");
+}
+
+body {
+    overflow-x: hidden;
+    background: #027d7d;
+}

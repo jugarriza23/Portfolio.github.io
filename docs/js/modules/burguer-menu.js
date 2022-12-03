@@ -1,0 +1,1 @@
+const menu=document.querySelector(".menu");console.log(menu);const burgerButton=document.querySelector("#burger-menu");function hideShow(){menu.classList.contains("is-active")?menu.classList.remove("is-active"):menu.classList.add("is-active")}console.log(burgerButton),burgerButton.addEventListener("click",hideShow);
